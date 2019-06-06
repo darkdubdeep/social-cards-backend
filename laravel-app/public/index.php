@@ -9,6 +9,11 @@
 
 define('LARAVEL_START', microtime(true));
 
+/*CORRS*/
+header('Access-Control-Allow-Origin: *');  
+header('Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS');
+header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, X-Requested-With");
+
 /*
 |--------------------------------------------------------------------------
 | Register The Auto Loader
